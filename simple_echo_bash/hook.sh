@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "This is master branch hook"
+echo "This is branch 'test' hook"
