@@ -4,7 +4,7 @@
 FILE="data.txt"
 
 # Ensure the scripts directory exists
-SCRIPTS_DIR="./scripts"
+SCRIPTS_DIR="$SCALR_HOOK_DIR/scripts"
 
 # Create the data file
 echo "Initial content of the file" > "$FILE"
