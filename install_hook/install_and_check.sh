@@ -17,7 +17,7 @@ check_package() {
 # Function to install the package
 install_package() {
     if [[ "$(uname -s)" == "Linux" ]]; then
-        sudo apt-get update && sudo apt-get install -y "$PACKAGE"
+        apt-get update && apt-get install -y "$PACKAGE"
     elif [[ "$(uname -s)" == "Darwin" ]]; then
         brew install "$PACKAGE"
     else
