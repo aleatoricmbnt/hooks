@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define file path
-FILE="data.txt"
+FILE="$SCALR_HOOK_DIR/data.txt"
 
 # Ensure the scripts directory exists
 SCRIPTS_DIR="$SCALR_HOOK_DIR/scripts"

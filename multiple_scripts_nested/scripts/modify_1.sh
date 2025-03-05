@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE="../data.txt"
+FILE="$SCALR_HOOK_DIR/data.txt"
 
 # Append a line to the file
 echo "Modified by script 1" >> "$FILE"
