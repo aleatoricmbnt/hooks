@@ -1,0 +1,1 @@
+Performs a request to random.org (between 0 and 100) and outputs number
